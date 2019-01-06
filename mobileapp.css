@@ -81,6 +81,10 @@ ion-side-menu li.item.item-divider {
   color: #EBEFF8;
 }
 
+ion-app.app-root .core-button-select .select-icon .select-icon-inner, ion-app.app-root ion-select.core-button-select .select-icon .select-icon-inner {
+    color: #8DC13F;
+}
+
 /* Tabs color*/
 .core-tabs-bar .slides a.tab-slide[aria-selected=true] {
   color: #8DC13F !important;
@@ -95,6 +99,14 @@ ion-app.app-root .core-tabs-bar a.tab-slide[aria-selected=true] {
 ion-app.app-root core-progress-bar progress .progress-bar-fallback span, ion-app.app-root core-progress-bar progress[value]::-webkit-progress-value {
     background-color: #8DC13F;
     border-radius: 0;
+}
+
+.radio-ios .radio-checked .radio-inner {
+    border-color: #8DC13F;
+}
+
+.item-radio-checked.item-ios ion-label {
+    color: #8DC13F;
 }
 
 .radio-md .radio-inner {
@@ -115,6 +127,14 @@ ion-app.app-root .core-button-select, ion-app.app-root ion-select.core-button-se
 
 ion-app.app-root ion-select {
     color: #8DC13F;
+}
+
+.toggle-ios.toggle-checked .toggle-icon {
+    background-color: #8DC13F;
+}
+
+[dir=ltr] ion-app.app-root .core-primary-selected-item {
+    border-left: 5px solid #8DC13F;
 }
 
 /* Loading spinner */
