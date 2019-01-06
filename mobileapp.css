@@ -137,6 +137,10 @@ ion-app.app-root ion-select {
     border-left: 5px solid #8DC13F;
 }
 
+ion-app.app-root.ios .button-ios-light {
+    color: #007236;
+}
+
 /* Loading spinner */
 .spinner circle, .spinner line {
     stroke: #007236;
